@@ -1,0 +1,8 @@
+{
+  "name": "dat-mongo",
+  "description": "test dat-mongo",
+  "publisher": "taterbase",
+  "hooks": {
+    "listen": "../index.js"
+  }
+}

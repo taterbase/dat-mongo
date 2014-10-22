@@ -1,3 +1,4 @@
+[![build status](https://travis-ci.org/taterbase/dat-mongo.svg)](https://travis-ci.org/taterbase/dat-mongo)
 #dat-mongo
 
 A [MongoDB](http://mongodb.org) plugin for [dat](http://dat-data.com) for realtime data changes

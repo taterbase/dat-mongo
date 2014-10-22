@@ -1,6 +1,6 @@
 {
   "name": "dat-mongo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "author": "taterbase",
   "license": "ISC",
@@ -22,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/taterbase/dat-mongo/issues"
   },
-  "homepage": "https://github.com/taterbase/dat-mongo"
+  "homepage": "https://github.com/taterbase/dat-mongo",
+  "devDependencies": {
+    "should": "^4.1.0",
+    "mocha": "^2.0.0",
+    "rmdir-recursive": "0.0.0",
+    "mongodb": "^1.4.19"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
 }

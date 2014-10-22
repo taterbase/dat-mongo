@@ -1,14 +1,12 @@
 var tail = require('oplog-transform-tail')
 
 module.exports = function hook(dat, done) {
-  console.log("OH HI")
 
   tail({
 
     url: dat.options.mongoOplogUrl,
 
     insert: function(_id, doc, cb) {
-      console.log("AYYYYY")
       dat.put(_id, doc, function(err) {
         if (err)
           console.log(err)
