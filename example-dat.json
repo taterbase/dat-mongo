@@ -1,0 +1,11 @@
+{
+  "name": "dat-mongo",
+  "publisher": "taterbase",
+  "description": "MongoDB dat plugin",
+
+  "hooks": {
+    "listen": "dat-mongo"
+  },
+
+  "mongoOplogUrl": "127.0.0.1:27017/local"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "dat-mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "taterbase",
+  "license": "ISC",
+  "dependencies": {
+    "oplog-transform-tail": "^1.1.0"
+  },
+  "description": "A MongoDB plugin for dat for realtime data changes",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taterbase/dat-mongo.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "dat",
+    "oplog",
+    "dat-mongo"
+  ],
+  "bugs": {
+    "url": "https://github.com/taterbase/dat-mongo/issues"
+  },
+  "homepage": "https://github.com/taterbase/dat-mongo"
+}
